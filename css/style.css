@@ -1,0 +1,462 @@
+/*Googel fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*--------------------------------------------------------------------------*/
+
+
+/* 
+
+<<<<<------------------Font Weights----------------->>>>>>
+
+Thin = 100
+Extra Light = 200
+Light = 300
+regular = 400
+Medium = 500
+Semi Bold = 600
+Bold = 700
+Extra Bold = 800
+Black = 900
+
+
+*/
+
+
+/* 
+
+<<<<<<----------------All Used Colors--------------------->>>>>>>
+
+black: #181818;
+blue: #4E47FF;
+ash: #626060;
+deep: #252432;
+
+*/
+
+
+/* 
+
+<<<<<<<<<<-------------Common Font Families------------>>>>>>>
+
+Raleway: "Raleway", sans-serif;
+Inter: "Inter", sans-serif;
+
+*/
+
+
+/*--------------------------------------------------------------------------*/
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #181818;
+    /*background-color: #f5f7ff;*/
+    background-color: #F5F8FF;
+}
+
+
+/* header */
+
+.header {
+    background-image: url(../images/Assets/Hero-bg.png);
+}
+
+.container {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+/* navbar */
+
+.c_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 70px 116px 65px;
+}
+
+
+/* logo */
+
+.c_logo {
+    font-family: "Inter", sans-serif;
+    ;
+    font-size: 25px;
+    font-weight: 900;
+    color: #4E47FF;
+    ;
+}
+
+
+/* buttom common style */
+
+.btn_cm {
+    background-color: #4E47FF;
+    ;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn_search {
+    padding: 12px 24px;
+}
+
+.btn_cm:hover {
+    background-color: #4E47FF;
+    color: white !important;
+}
+
+.btn_cm:active {
+    color: white !important;
+    background-color: #626060;
+    border-color: none !important;
+}
+
+
+/* banner */
+
+.banner-moto {
+    font-family: "Raleway", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: #252432;
+    text-align: center;
+    padding: 130px 475px 10px 465px
+}
+
+.c_but {
+    margin: 0px 333px 200px 743px;
+}
+
+
+/* action part */
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 68px 165px 116px 165px;
+}
+
+.action-heading {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #252432;
+    margin: 0px 23px 0px 0px;
+}
+
+.action-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #afafb5;
+    width: 345px;
+    padding: 0px 0px
+}
+
+.new_custom {
+    padding: 12px 24px;
+}
+
+.action-img {
+    border-radius: 85px;
+}
+
+
+/* Productive users preview section part */
+
+.preview {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: 68px 165px 140px 165px;
+    background-color: #e0defd;
+    border-radius: 40px;
+}
+
+.live-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*width: 100%;*/
+}
+
+.preview-heading {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #252432;
+    margin: 50px 165px 40px 165px;
+}
+
+
+/*Productive users preview section skills part */
+
+.skill-title {
+    font-family: "Inter", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #4E47FF;
+    text-align: center;
+    margin: 0px 80px 10px 80px;
+}
+
+.skill-description {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #afafb5;
+    text-align: center;
+    margin: 0px 80px 50px 80px;
+}
+
+
+/* feedback part */
+
+.section-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+    text-align: center;
+    margin: 0px 80px 55px 80px;
+}
+
+.stars {
+    box-shadow: 0px 3px 3px 0px;
+    color: #626060;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+
+.icon-image {
+    margin: 10px 5px 18px 10px;
+}
+
+.rating-title {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    padding: 0px 10px;
+    margin: 0px 2px 0px 2px;
+}
+
+.ratings-container {
+    padding: 20px 165px 135px 165px;
+    display: flex;
+    gap: 65px;
+    color: #626060;
+}
+
+.rating-description {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #181818;
+    padding: 0px 0px 0px 11px;
+}
+
+.alada {
+    display: flex;
+    background-color: #f5f7ff;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+.female {
+    padding: 0px 6px 0px 5px;
+    border-radius: 30px;
+}
+
+.name {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #626060;
+    padding: 0px 10px;
+    margin: 0px 2px 0px 2px;
+}
+
+.date {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626060;
+    padding: 0px 0px 0px 10px;
+    margin: 2px;
+}
+
+
+/* template section start */
+
+.template {
+    box-shadow: 0px 3px 3px 0px;
+    color: #606060;
+    border-radius: 20px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 165px 0px 165px;
+    background-color: #FFFFFF;
+}
+
+.template-content {
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+    text-align: center;
+    margin: 0px 80px 55px 80px;
+}
+
+.template-heading {
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    padding: 71px 300px 0px 300px;
+}
+
+.template-text {
+    color: #a9a4a4;
+    font-size: 15px;
+    padding: 0px 327px 20px 327px;
+}
+
+.para {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.button_custom {
+    padding: 12px 24px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    margin: 0px 0px 20px 0px;
+}
+
+.template-img {
+    border-radius: 30px;
+    margin: -30px 80px 65px 370px;
+}
+
+
+/* contact form section */
+
+.contact {
+    display: flex;
+    gap: 115px;
+    padding: 153px 165px 106px 165px;
+}
+
+.contact-column {
+    width: 50%;
+}
+
+.c_contact-head {
+    font-family: "Raleway", sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: #252432;
+    margin: 290px 0px 5px 0px;
+    /*margin: 290px 895px 5px 160px;*/
+}
+
+.c_contact-text {
+    font-size: 20px;
+    padding: 0px 0px 20px 0px
+}
+
+
+/* form create eksathe */
+
+.contact input[type="name"],
+.contact input[type="email"] {
+    height: 30px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    display: block;
+    width: 90%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+
+.message {
+    height: 100px;
+    border-radius: 5px;
+    font-weight: 200;
+    font-size: 15px;
+    background-color: #FFFFFF;
+    width: 90%;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+
+.form-content {
+    margin: 170px 0px 5px 0px;
+}
+
+.c_butt {
+    padding: 12px 300px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*
+<<<<<<<<<<----------------Footer--------------------->>>>>>>>
+
+*/
+
+.footer {
+    padding: 116px 455px;
+}
+
+.footer-heading {
+    font-family: "Inter", sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    text-align: center;
+    margin: 1px
+}
+
+.footer-para {
+    color: #626060;
+    padding: 0px 221px 5px 242px;
+}
+
+.footer-links {
+    display: flex;
+    margin: 0px 50px 0px 266px;
+}
+
+.cus {
+    margin: 0px 62px 0px 0px;
+}
